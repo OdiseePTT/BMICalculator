@@ -22,7 +22,7 @@
             <Setter Property="Margin" Value="2"/>
         </Style>
     </Window.Resources>
-    <Grid>
+    <Grid Background="{Binding Color}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
